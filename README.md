@@ -21,6 +21,8 @@ contract Test {
 }
 ```
 
+NOTE: as much as I like using libraries, the wrapper code breaks with delegatecall. For now you must resort to using rsaverify as an inherited contracted. Or just copy the code from `rsaverify.sol` into your project.
+
 And then pass one of the following sample inputs:
 
 1) 512 bit key
